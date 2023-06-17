@@ -1,0 +1,47 @@
+body {
+    background-image: url(https://images4.alphacoders.com/855/85556.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+    color: #ad1a59;
+    text-shadow: 2px 10px white;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #733C3C;
+    background: #ad1a59;
+    color: #ffffff;
+    box-shadow: 1px 1px 2px #C69B7B;
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+button {
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #733C3C;
+    background: #ad1a59;
+    color: #ffffff;
+    box-shadow: 1px 1px 2px #C69B7B;
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer;
+}

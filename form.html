@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>DOM Javascript</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Pendaftaran Nonton Konser</h3>
+        </div>
+        <form action="">
+            <label for="nama">Nama</label><br>
+            <input type="text" placeholder="Nama anda" id="nama"><br><br>
+            <label for="tanggal">Tanggal</label><br>
+            <input type="date" id="tanggal"><br><br>
+            <label for="pembayaran">Jenis Pembayaran</label><br>
+            <select id="pembayaran">
+                <option value="dana">Dana</option>
+                <option value="bni">BNI</option>
+                <option value="shoopepay">Shoopepay</option>
+            </select><br><br>
+            <p>Jenis Tiket:</p>
+            <input type="radio" name="jenis" id="festival" value="festival IDR 500.000">
+            <label for="festival">Festival IDR 500.000</label><br>
+            <input type="radio" name="jenis" id="vip" value="vip">
+            <label for="vip">VIP IDR 600.000</label><br>
+            <input type="radio" name="jenis" id="vip2" value="vip2">
+            <label for="vip2">VIP2 IDR 450.000</label><br>
+            <input type="radio" name="jenis" id="standard" value="standard">
+            <label for="standard">Standard IDR 300.000</label><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="text" placeholder="Email anda" id="email"><br>
+            <label for="alamat">Alamat</label><br>
+            <textarea placeholder="Tulis alamatmu disini" name="alamat" id="alamat" cols="30"
+                rows="5"></textarea><br><br>
+            <button type="submit" onclick="kirimData()">Kirim</button>
+        </form>
+    </div>
+    <script src="form.js"></script>
+</body>
+
+</html>
